@@ -4,7 +4,7 @@ import requests, edge_tts
 NICHE = os.getenv("NICHE", "amazing facts")
 CONTENT_LANG = os.getenv("CONTENT_LANG", "Hindi")
 VOICE = os.getenv("VOICE", "hi-IN-MadhurNeural")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
 FONT = os.getenv("FONT", "Noto Sans Devanagari")
 PRIVACY = os.getenv("PRIVACY", "public")
 CATEGORY = os.getenv("CATEGORY", "27")  # 27 = Education, 24 = Entertainment
